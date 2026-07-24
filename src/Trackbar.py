@@ -22,7 +22,7 @@ while True:
     b=cv2.getTrackbarPos('B','window')
 
     #赋值
-    img[:]=[b,g,r]
+    img[:,:]=[b,g,r]
     cv2.imshow('window',img)
     key=cv2.waitKey(1)
     if key==ord('q'):
