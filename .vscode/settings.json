@@ -1,4 +1,8 @@
 {
     "python-envs.defaultEnvManager": "ms-python.python:conda",
-    "python-envs.defaultPackageManager": "ms-python.python:conda"
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "terminal.integrated.fontFamily": "'MesloLGM Nerd Font', monospace",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
+    "terminal.integrated.defaultProfile.linux": "zsh"
 }
