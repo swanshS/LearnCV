@@ -35,7 +35,8 @@ while True:
         break
     # 保存
     elif key & 0xFF == ord("s"):
-        cv2.imwrite("/home/song/Code/Python/CV/Pic/Camera" + str(a) + ".png", frame)
+        cv2.imwrite("/home/song/Code/Python/CV/Pic/Camera" +
+                    str(a) + ".png", frame)
         print("Picture Saved!")
         a = a + 1
 

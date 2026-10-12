@@ -1,6 +1,6 @@
-import cv2
-import numpy as np
+# import numpy as np
 import sys  # 导入 sys 模块，用于安全退出
+import cv2
 
 cv2.namedWindow("ori", cv2.WINDOW_AUTOSIZE)
 cv2.namedWindow("new", cv2.WINDOW_AUTOSIZE)
